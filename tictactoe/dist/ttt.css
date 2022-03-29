@@ -1,0 +1,20 @@
+
+ul {
+  margin: 30px auto;
+  width: 300px;
+  list-style-type: none;
+}
+
+li {
+    
+  float: left;
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  background: gray;
+}
+
+li:hover {
+    background: yellow;
+}
+
