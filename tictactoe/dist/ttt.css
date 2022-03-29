@@ -1,3 +1,13 @@
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+h2 {
+    display:flex;
+    margin-left: 300px;
+    padding: 30px;
+}
 
 ul {
   margin: 30px auto;
@@ -6,7 +16,10 @@ ul {
 }
 
 li {
-    
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
   float: left;
   width: 90px;
   height: 90px;
@@ -18,3 +31,14 @@ li:hover {
     background: yellow;
 }
 
+.done {
+    background: white;
+}
+
+.active {
+    background-color:  green;
+}
+
+.inactive {
+    color: red;
+}

@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const grid = document.querySelector('.ttt');
   // debugger;
   const game = new Game();
+  // debugger;
   const view = new View(game,grid);
-  grid.addEventListener("click",view.handleClick);
 });
 
 
